@@ -3,43 +3,175 @@ https://codepen.io/JayArr/pen/oNgPxeR?editors=1100
 
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-    1. What is Semantic HTML? 
+    1. What is Semantic HTML?
+
+	 Semantic HTML is the use of HTML that gives your webpage "meaning".
+
     2. What is HTML used for? 
+
+        To provide information about your webpage.
+
     3. What is an attribute and where do we put it? 
+
+        HTML attributes are special words used inside the opening tag to control the element's behaviour. 
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+
+        The <h1> tag is providing meaning to the search engine by informing any indexing tools that we want
+
     5. Name two tags that have required attributes
+
+        <a> and <img> tags.
+
     6. What do we put in the head of our HTML document? 
-    7. What is an id? 
+
+        page title
+
+    7. What is an id?
+
+        The id attribute specifies a unique id for an HTML element
+
     8. What elements can I add an id to? 
+
+        <id>
+
     9. How many times can I use the same id on a page? 
+
+        once per page
+
     10. What is a class? 
+
+        The HTML class attribute is used to define equal styles for elements with the same class name.
+
     11. What elements can I add a class to? 
+
+        <class>
+
     12. How many times can I use the same class on a page? 
+
+        as many as needed
+
     13. How do I get my link to open in a new tab?
+
+        <a target="_blank">
+
     14. What is the alt attribute used for? 
+
+        naming an image
+
     15. How do I reference an id?
+
+        add an attribute
+
     16. What is the difference between a section and a div
+
+        <div> element has no inherent meaning, <section> means that the content inside is grouped.
+
     17. What is CSS used for? 
+
+        adding style to a web page.
+
     18. How to we select an element? Example - every h2 on the page
+
+        h2{}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+        Class lets you style multiple elements while ID only styles one specific element like a <span>.
+
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+
+        .class{}
+
+    21. How do we select a p element with a single class of ï¿½humanï¿½ï¿½?
+
+        .human{}
+
     22. What is a parent child selector? When would this be useful? 
+
+        perent child selector used to select elements with a specific parent
+
     23. How do you select all links within a div with the class of sidebar?
+
+        div, .sidebar{}
+
     24. What is a pseudo selector?
+
+        a:hover{}
+
     25. What do we use the change the spacing between lines?
+
+        length
+
     26. What do we use to change the spacing between letters?
+
+        width
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+        text-transform
+
     28. How do I add a 1px border around my div that is dotted and black?
+
+        div {
+             border-style: dotted;
+            border-width: 1px;
+            border-color: black;
+        }
     29. How do I select everything on the page? 
+
+        *{
+
+        }
     30. How do I write a comment in CSS?
+
+        use two forward slashes
+
     31. How do I find out what file I am in, when I am using the command line? 
+
+        pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+        ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+        rm command, be careful becuase it removes the file forever
+
     34. Why should I use version control? 
     35. How often should I commit to github?
+
+        everytime you make a significant change to a file.
+
     36. What is the command we would use to push our repo up to github? 
+
+        git push -u origin
+
     37. Walk me through Lambda's git flow. 
+
+        Create YOUR OWN version of Repo â€”> (Fork)
+
+        Add your TL as a collaborator
+
+
+        Clone YOUR Repo
+
+
+        Create a branch (the one you are going to be working on)
+
+
+        git checkout -b 'firstname-lastname'
+
+        Push your new branch up to GitHub and make all future pushes to that branch
+
+        git push -u origin firstname-lastname
+
+
+        Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda Master)
+        compare fork: YOUR FORK
+
+        Add your TL as a reviewer on the Pull Request
 
 Stretch Questions
 
